@@ -15,7 +15,16 @@ module.exports = function(environment) {
         // Prevent Ember Data from overriding Date.parse.
         Date: false
       }
+
+
     },
+    firebase: {
+          apiKey: 'AIzaSyCkUuw3hsWYATW60cmGRkEpblxPbfsaT10',
+          authDomain: 'super-rentals-26ace.firebaseapp.com',
+          databaseURL: 'https://super-rentals-26ace.firebaseio.com',
+          storageBucket: 'super-rentals-26ace.appspot.com'
+        },
+
 
     APP: {
       // Here you can pass flags/options to your application instance
